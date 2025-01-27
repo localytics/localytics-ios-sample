@@ -1,0 +1,15 @@
+{
+  "originHash" : "c71b1082bb039579ac792e7b7a45adefc0df26e8c0a47bf156e45db90a4a405b",
+  "pins" : [
+    {
+      "identity" : "localytics-swiftpm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/localytics/Localytics-swiftpm.git",
+      "state" : {
+        "revision" : "b6ec405a68e457b7632a2341c30e188b835ba5a8",
+        "version" : "6.3.4"
+      }
+    }
+  ],
+  "version" : 3
+}
