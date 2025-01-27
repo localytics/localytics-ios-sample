@@ -13,6 +13,7 @@
 		3A0E27792D4773B3002C55AC /* Localytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3A0E27782D4773B3002C55AC /* Localytics */; };
 		3A40F5252C75F7A200AE226D /* PlacesVw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A40F5242C75F7A200AE226D /* PlacesVw.swift */; };
 		3A43A8432BFC7A1000271CB2 /* InAppMsgVw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A43A8422BFC7A1000271CB2 /* InAppMsgVw.swift */; };
+		3A5AFD902D477B0E0077FD38 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5AFD8F2D477B0E0077FD38 /* Launch Screen.storyboard */; };
 		3A64408E2BAAF445003E0475 /* HelperCardStyleForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A64408D2BAAF445003E0475 /* HelperCardStyleForView.swift */; };
 		3A6440932BAB12F3003E0475 /* HeaderVw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6440922BAB12F3003E0475 /* HeaderVw.swift */; };
 		3A677FA62BCCEFDB0041C038 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A677FA52BCCEFDB0041C038 /* SplashView.swift */; };
@@ -27,7 +28,6 @@
 		3A796EAC2BB584670042CD9A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A796EAB2BB584670042CD9A /* Constants.swift */; };
 		3A92AFDC2C16DAA3008CAFC1 /* TabBarVw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A92AFDB2C16DAA3008CAFC1 /* TabBarVw.swift */; };
 		3A92AFDE2C16DD09008CAFC1 /* CustomerIdContainerVw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A92AFDD2C16DD09008CAFC1 /* CustomerIdContainerVw.swift */; };
-		3ACC0BC82C746C5D00028155 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACC0BC72C746C5D00028155 /* Launch Screen.storyboard */; };
 		3ACC0BCA2C746FED00028155 /* AboutVw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC0BC92C746FED00028155 /* AboutVw.swift */; };
 		3ACC0BCC2C74701200028155 /* LoadWebVw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC0BCB2C74701200028155 /* LoadWebVw.swift */; };
 		3ACC0BCE2C74703B00028155 /* WKWebVw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC0BCD2C74703B00028155 /* WKWebVw.swift */; };
@@ -78,6 +78,7 @@
 		3A0A548D2C7F4ECD00401FB8 /* PlacesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVM.swift; sourceTree = "<group>"; };
 		3A40F5242C75F7A200AE226D /* PlacesVw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVw.swift; sourceTree = "<group>"; };
 		3A43A8422BFC7A1000271CB2 /* InAppMsgVw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppMsgVw.swift; sourceTree = "<group>"; };
+		3A5AFD8F2D477B0E0077FD38 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3A64408D2BAAF445003E0475 /* HelperCardStyleForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperCardStyleForView.swift; sourceTree = "<group>"; };
 		3A6440922BAB12F3003E0475 /* HeaderVw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderVw.swift; sourceTree = "<group>"; };
 		3A677FA52BCCEFDB0041C038 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -92,7 +93,6 @@
 		3A796EAB2BB584670042CD9A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3A92AFDB2C16DAA3008CAFC1 /* TabBarVw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVw.swift; sourceTree = "<group>"; };
 		3A92AFDD2C16DD09008CAFC1 /* CustomerIdContainerVw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerIdContainerVw.swift; sourceTree = "<group>"; };
-		3ACC0BC72C746C5D00028155 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../../../../../Downloads/BckSwiftUI/ios/LocalyticsDemoApp/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3ACC0BC92C746FED00028155 /* AboutVw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVw.swift; sourceTree = "<group>"; };
 		3ACC0BCB2C74701200028155 /* LoadWebVw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadWebVw.swift; sourceTree = "<group>"; };
 		3ACC0BCD2C74703B00028155 /* WKWebVw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebVw.swift; sourceTree = "<group>"; };
@@ -236,11 +236,11 @@
 		B6C49C212A1435EC00F4A435 /* LocalyticsDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				3A5AFD8F2D477B0E0077FD38 /* Launch Screen.storyboard */,
 				3AD0A3BF2BF734B100ACA48E /* Views */,
 				3A796EAA2BB584550042CD9A /* SupportingFiles */,
 				3A64408F2BAB12B8003E0475 /* CustomReusableVw */,
 				B6AAD1292A27FA900052AF2B /* Info.plist */,
-				3ACC0BC72C746C5D00028155 /* Launch Screen.storyboard */,
 				B6C49C222A1435EC00F4A435 /* LocalyticsDemoAppApp.swift */,
 				B6AAD12A2A27FCBC0052AF2B /* DemoAppDelegate.swift */,
 				B6C49C242A1435EC00F4A435 /* ContentView.swift */,
@@ -388,7 +388,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ACC0BC82C746C5D00028155 /* Launch Screen.storyboard in Resources */,
+				3A5AFD902D477B0E0077FD38 /* Launch Screen.storyboard in Resources */,
 				B6C49C2B2A1435ED00F4A435 /* Preview Assets.xcassets in Resources */,
 				B6C49C272A1435ED00F4A435 /* Assets.xcassets in Resources */,
 			);
